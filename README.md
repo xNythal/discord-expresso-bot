@@ -19,10 +19,9 @@ These instructions will help you set up the bot locally.
 
 ### Prerequisites
 
-- Python 3.10+  
+- Python 3.10+
 - `discord.py` library (`pip install -U discord.py`)  
-- Discord bot token  
-- (Optional) SQLite or another database for persistent storage  
+- Discord bot token
 
 ### Installation & Setup
 
@@ -44,16 +43,7 @@ These instructions will help you set up the bot locally.
    ```
 
 4. **Configure settings:**  
-   Edit `config.yml` to customize your bot:
-   ```yaml
-   bot:
-     prefix: "!"
-     xp_rate: 1
-     max_level: 100
-   features:
-     leaderboards: true
-     reaction_roles: true
-   ```
+   Edit `config.yml` to customize your bot
 
 5. **Run the bot:**  
    ```bash
